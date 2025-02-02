@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffd166;
+}
+
+h1{
+    padding: 5vh;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+    width: 62vh;
+    border-radius: 1vh;
+    background-color: #073b4c;
+}
+
+.box{
+    display: flex;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 1vh;
+    background-color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+
+.food{
+    background-color: red;
+}
+
+.head{
+    background-color: rgb(1, 63, 1);
+}
+
+.div{
+    background-color: lime;
+    border: 0.1vh solid black;
+}
+
+.over{
+    background-color: rgb(250, 182, 81);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hide{
+    display: none;
+}
+
+h3{
+    padding-top: 3vh;
+}
+
+.score{
+    height: 5vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: bolder;
+    background-color: #073b4c;
+    border-radius: 1vh;
+    color: beige;
+}
+
+#reset,#replay{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 15vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: none;
+    background-color: #012c2095;
+    color: beige;
+}
+
+#start,#back{
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 15vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: none;
+    background-color: #012c2095;
+    color: beige;
+}
